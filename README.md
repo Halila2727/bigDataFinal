@@ -41,9 +41,8 @@ spark-submit \
 
 ## Outputs
 - results.json: metrics + confusion matrix for both models (Decision Tree and Random Forest)
-- This file generates 
 
-Metrics included:
+The metrics are:
 - accuracy
 - precision / recall / F1 (weighted + per-class)
 - confusion matrix (rows = true label, cols = predicted label)
